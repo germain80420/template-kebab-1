@@ -1,0 +1,21 @@
+footer{
+    color: black;
+    background-color: #FFA500;
+    height: 10vh;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 1.8em;
+}
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    height: 100%;
+}
+footer a{
+    align-items: center;
+    color: black;
+
+
+}

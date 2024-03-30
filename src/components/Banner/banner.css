@@ -1,0 +1,33 @@
+.banner {
+    width: 100%; /* Occupe toute la largeur de l'écran */
+    height: 20vh; /* Fixe la hauteur à 20% de la hauteur de l'écran */
+    background-color: #f0f0f0; /* Couleur de fond de la bannière */
+    padding-top: 0;
+    
+  }
+  
+  .banner-content {
+    
+    height: 100%; /* Remplit toute la hauteur de la bannière */
+    position: relative; /* Assurez-vous que la position est relative */
+    overflow: hidden; /* Masquer le contenu qui dépasse les dimensions du conteneur */
+
+  }
+  
+  .banner-image {
+    width: 100%; /* Occupe toute la largeur de la bannière */
+    height: 100%; /* Occupe toute la hauteur de la bannière */
+    object-fit: cover; /* Ajuste l'image pour couvrir la bannière sans déformation */
+  }
+  .banner-text-container {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico';
+    font-size: 2em;
+    
+  }
+  

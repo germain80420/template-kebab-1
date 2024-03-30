@@ -1,0 +1,83 @@
+.card {
+    width: 14%;
+    aspect-ratio: 1;
+    margin: 0;
+    display: inline-block;
+    position: relative; /* Ajoutez une position relative au conteneur de la carte */
+    transition: transform 0.5s ease; /* Ajoute une transition pour une animation fluide */
+
+}
+
+.card-content {
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative; /* Assurez-vous que la position est relative */
+    overflow: hidden; /* Masquer le contenu qui dépasse les dimensions du conteneur */
+}
+
+.card-content img {
+    width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    padding: 0;
+}
+
+.card-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 3.9em;
+    text-shadow: -1px -1px 0 black,  
+                1px -1px 0 black,
+               -1px  1px 0 black,
+                1px  1px 0 black; /* Ajoute une ombre à chaque lettre pour simuler une bordure */
+}
+.card:hover{
+    cursor: pointer;
+}
+.odd-border{
+    border: 6px solid #808000;
+}
+.even-border{
+    border: 6px solid #FFA500;
+
+}
+.card.hover-effect:hover {
+    transform: rotateY(180deg);
+  }
+  .card-details-menu{
+    transform: rotateY(180deg);
+    color: black;
+background-color: white;
+  }
+  .card-details-menu h1{
+    text-align: center;
+    font-size: 1.8em;
+    width: fit-content;
+    padding-top: 0;
+    margin-top: 0;
+    margin: auto;
+
+  }
+  .content-description h2{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6em;
+    width: fit-content;
+  }
+  .content-description p,.content-sauce p{
+    font-size: 1.1em;
+    line-height: normal;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+
+  }
+  p{
+    padding: 0;
+    margin: 0;
+  }
