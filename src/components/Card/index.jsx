@@ -7,7 +7,11 @@ function Card(props){
 
   // Fonction de redirection lors du clic sur la carte
   const handleCardClick = () => {
+    if(props.route)
     navigate(props.route); // Redirige vers l'URL spécifiée dans props.route
+else{
+    setHover(!hover)
+}
   };
   const borderClass = props.index % 2 === 0 ? "even-border" : "odd-border";
 
@@ -15,8 +19,8 @@ function Card(props){
         <div
       className={`card ${borderClass} ${!props.route && hover ? "hover-effect" : ""}`}
       onClick={handleCardClick}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+    //   onMouseEnter={() => setHover(true)}
+    //   onMouseLeave={() => setHover(false)}
     >
       <div className="card-content">
         {!props.route && hover ? (

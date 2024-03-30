@@ -46,7 +46,7 @@
     border: 6px solid #FFA500;
 
 }
-.card.hover-effect:hover {
+.card.hover-effect {
     transform: rotateY(180deg);
   }
   .card-details-menu{

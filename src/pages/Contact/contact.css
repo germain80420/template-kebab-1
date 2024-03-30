@@ -4,3 +4,54 @@
     justify-content: center;
     height: 80vh;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: #CCCCCC;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    color: black;
+
+}
+::placeholder{
+    color: black;
+
+}
+input, textarea{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    border: 1px solid #B22222;
+    border-radius: 8px;
+    font-size: 1.9em;
+
+}
+input{
+    height: 5vh;
+}
+.recaptcha{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 30px;
+
+}
+.btn{
+    background: #FFD700;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px;
+    font-size: 1.4em;
+
+}
+textarea{
+    height: 15vh;
+}
